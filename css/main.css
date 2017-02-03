@@ -9,34 +9,65 @@ body {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
+  padding: .3em;
+  margin: 0;
 }
 #top a {
   font-family: Helvetica;
   font-size: 18px;
   display: block;
+  color: white;
+  line-height: 1.8em;
 }
 #process h2 {
   font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
 }
+.box {
+  border: 1px solid black;
+  display: inline-block;
+  width: 200px;
+  padding: 25px;
+  margin: 0 0 1.5em 0;
+}
+.background-1 h3 {
+  margin: 0;
+}
 h3 {
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
+  margin: .4em 0 .2em 0;
 }
 p {
   font-family: Helvetica;
   font-size: 14px;
+  line-height: 1.5em;
+  margin: .2em 0 1em 0;
 }
 #footer {
   background-color: dimgray;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
-#footer p {
+#footer p, #ghost-footer p {
   font-family: Helvetica;
   font-size: 11px;
   color: white;
-}
-#footer a {
   display: inline;
+  float: left;
+  margin: 0 .5em;
+}
+#footer a, #ghost-footer a {
+  font-size: 11px;
+  color: white;
+  float: left;
+  margin: 0 .5em;
+}
+.ghost {
+  visibility: hidden;
 }
